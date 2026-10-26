@@ -1,0 +1,244 @@
+.ad-login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, var(--espresso) 0%, var(--espresso-light) 100%);
+  padding: 20px;
+}
+
+.ad-login-card {
+  background: var(--cream);
+  padding: 40px 34px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-pop);
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ad-login-icon {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.ad-login-card h1 {
+  font-family: var(--font-display);
+  text-align: center;
+  margin: 0;
+  color: var(--espresso);
+  font-size: 1.4rem;
+}
+
+.ad-login-sub {
+  text-align: center;
+  color: var(--espresso-light);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.ad-login-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--espresso);
+}
+
+.ad-login-card input {
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--cream-soft);
+  font-size: 0.95rem;
+}
+
+.ad-login-card button {
+  margin-top: 8px;
+  background: var(--chai);
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.ad-login-card button:disabled {
+  opacity: 0.6;
+}
+
+.ad-error {
+  background: #FDECEA;
+  color: var(--danger);
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+}
+
+.ad-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  color: var(--espresso);
+  font-weight: 700;
+}
+
+.ad-dashboard {
+  min-height: 100vh;
+  background: var(--cream-soft);
+  font-family: var(--font-body);
+}
+
+.ad-header {
+  background: var(--espresso);
+  color: var(--cream);
+  padding: 24px 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ad-header h1 {
+  font-family: var(--font-display);
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+}
+
+.ad-header p {
+  margin: 0;
+  color: var(--cream-soft);
+  font-size: 0.88rem;
+}
+
+.ad-logout {
+  background: rgba(251, 243, 228, 0.12);
+  border: 1px solid rgba(251, 243, 228, 0.3);
+  color: var(--cream);
+  padding: 9px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.ad-tabs {
+  display: flex;
+  gap: 8px;
+  padding: 18px 5vw 0;
+  flex-wrap: wrap;
+}
+
+.ad-tab {
+  background: white;
+  border: 1.5px solid var(--cream-soft);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--espresso-light);
+}
+
+.ad-tab.active {
+  background: var(--marigold);
+  border-color: var(--marigold);
+  color: white;
+}
+
+.ad-status {
+  margin: 16px 5vw 0;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+
+.ad-status-success {
+  background: #E5F6EC;
+  color: var(--success);
+}
+
+.ad-status-error {
+  background: #FDECEA;
+  color: var(--danger);
+}
+
+.ad-panel {
+  padding: 20px 5vw 60px;
+  max-width: 1000px;
+}
+
+.ad-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: 0 6px 20px rgba(46, 27, 18, 0.08);
+}
+
+.ad-card h2 {
+  font-family: var(--font-display);
+  color: var(--espresso);
+  margin-top: 0;
+}
+
+.ad-hint {
+  color: var(--espresso-light);
+  font-size: 0.85rem;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
+
+.ad-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.ad-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--espresso);
+  text-transform: capitalize;
+  margin-bottom: 14px;
+}
+
+.ad-card input,
+.ad-card textarea {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--cream-soft);
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.ad-json-editor {
+  width: 100%;
+  font-family: 'Courier New', monospace;
+  font-size: 0.82rem;
+  background: var(--espresso);
+  color: #B9F5D0;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  border: none;
+  margin-bottom: 14px;
+}
+
+.ad-save {
+  background: var(--tumbler-teal);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.9rem;
+}

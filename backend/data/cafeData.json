@@ -1,0 +1,106 @@
+{
+  "cafeName": "The Scholars Cafe",
+  "tagline": "Good food, calm vibes, room to think.",
+  "rating": 4.4,
+  "reviewCount": 305,
+  "address": {
+    "line1": "Plot No. 54/1, Road 7, Sri Vani Nagar",
+    "line2": "Near Coca Cola Factory, Ganesh Nagar, Ameenpur",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pincode": "502033",
+    "plusCode": "G8GV+92M",
+    "googleMapsUrl": "https://maps.google.com/?q=G8GV+92M+Ameenpur+Hyderabad"
+  },
+  "contact": {
+    "phone": "PLACEHOLDER-UPDATE-IN-ADMIN",
+    "whatsapp": "PLACEHOLDER-UPDATE-IN-ADMIN",
+    "email": "PLACEHOLDER-UPDATE-IN-ADMIN",
+    "instagram": "PLACEHOLDER-UPDATE-IN-ADMIN",
+    "website": "PLACEHOLDER-UPDATE-IN-ADMIN"
+  },
+  "hours": {
+    "note": "SAMPLE HOURS — the cafe owner must confirm and update these in the Admin Panel before going live.",
+    "monday": "8:00 AM - 11:00 PM",
+    "tuesday": "8:00 AM - 11:00 PM",
+    "wednesday": "8:00 AM - 11:00 PM",
+    "thursday": "8:00 AM - 11:00 PM",
+    "friday": "8:00 AM - 11:00 PM",
+    "saturday": "8:00 AM - 11:30 PM",
+    "sunday": "8:00 AM - 11:30 PM"
+  },
+  "services": {
+    "dineIn": true,
+    "driveThrough": true,
+    "delivery": "No-contact delivery available",
+    "takeaway": true,
+    "onlineOrderingLinks": {
+      "note": "Not yet configured. Add Swiggy/Zomato/website ordering links here once available.",
+      "swiggy": "",
+      "zomato": "",
+      "website": ""
+    }
+  },
+  "ambience": [
+    "Spacious seating",
+    "Calm, relaxed atmosphere",
+    "Good for working, studying or catching up with friends",
+    "Friendly, attentive staff",
+    "Clean and well-maintained interiors"
+  ],
+  "menuNote": "Prices marked as null are not yet confirmed. Sample prices below are DEMO PLACEHOLDERS ONLY for presentation purposes and must be verified/edited by the cafe owner in the Admin Panel before this goes live with real customers.",
+  "menu": [
+    {
+      "category": "Street Food & Chaat",
+      "items": [
+        { "name": "Dahi Puri", "description": "Crisp puris loaded with curd, chutneys and crunchy toppings.", "price": 99, "isSamplePrice": true, "veg": true, "popular": true },
+        { "name": "Pani Puri", "description": "Classic puris served with tangy-spicy mint water.", "price": 89, "isSamplePrice": true, "veg": true, "popular": true },
+        { "name": "Pav Bhaji", "description": "Buttery mashed vegetable curry served with soft pav.", "price": 129, "isSamplePrice": true, "veg": true, "popular": true }
+      ]
+    },
+    {
+      "category": "Tiffins",
+      "items": [
+        { "name": "Idli", "description": "Steamed rice cakes served with chutney and sambar.", "price": null, "isSamplePrice": false, "veg": true, "popular": false },
+        { "name": "Plain Dosa", "description": "Classic crispy rice-and-lentil crepe.", "price": null, "isSamplePrice": false, "veg": true, "popular": true },
+        { "name": "Masala Dosa", "description": "Dosa filled with spiced potato masala.", "price": null, "isSamplePrice": false, "veg": true, "popular": true },
+        { "name": "Millet Tiffins", "description": "Health-focused millet-based tiffin options (variety varies by day).", "price": null, "isSamplePrice": false, "veg": true, "popular": true }
+      ]
+    },
+    {
+      "category": "Biryani",
+      "items": [
+        { "name": "Veg Biryani", "description": "Fragrant rice cooked with mixed vegetables and spices.", "price": null, "isSamplePrice": false, "veg": true, "popular": false },
+        { "name": "Chicken Biryani", "description": "Hyderabadi-style layered chicken biryani.", "price": null, "isSamplePrice": false, "veg": false, "popular": true }
+      ]
+    },
+    {
+      "category": "Chinese",
+      "items": [
+        { "name": "Veg Fried Rice", "description": "Wok-tossed rice with fresh vegetables.", "price": null, "isSamplePrice": false, "veg": true, "popular": false },
+        { "name": "Chilli Paneer", "description": "Crispy paneer tossed in a spicy Indo-Chinese sauce.", "price": null, "isSamplePrice": false, "veg": true, "popular": false },
+        { "name": "Noodles", "description": "Stir-fried noodles, veg/non-veg options available.", "price": null, "isSamplePrice": false, "veg": true, "popular": false }
+      ]
+    },
+    {
+      "category": "Beverages",
+      "items": [
+        { "name": "Filter Coffee", "description": "South Indian style hot filter coffee.", "price": 49, "isSamplePrice": true, "veg": true, "popular": true },
+        { "name": "Masala Chai", "description": "Spiced Indian tea, brewed fresh.", "price": 39, "isSamplePrice": true, "veg": true, "popular": true },
+        { "name": "Specialty Drinks", "description": "Rotating menu of specialty coffees and cold beverages.", "price": null, "isSamplePrice": false, "veg": true, "popular": true }
+      ]
+    }
+  ],
+  "popularDishes": ["Dahi Puri", "Pani Puri", "Pav Bhaji", "Masala Dosa", "Millet Tiffins", "Chicken Biryani", "Filter Coffee", "Masala Chai"],
+  "offers": {
+    "note": "No confirmed live offers yet. The cafe owner can add current offers here via the Admin Panel.",
+    "active": []
+  },
+  "faqs": [
+    { "question": "Do you have parking?", "answer": "Please contact the cafe directly to confirm parking availability." },
+    { "question": "Is outside food allowed?", "answer": "Please contact the cafe directly to confirm this policy." },
+    { "question": "Do you have Wi-Fi?", "answer": "Please contact the cafe directly to confirm Wi-Fi availability." },
+    { "question": "Can I book a table for a group?", "answer": "Please call the cafe directly to check availability and reserve seating for groups." },
+    { "question": "Do you have vegan options?", "answer": "Please contact the cafe directly to confirm vegan-friendly items on the current menu." }
+  ]
+}

@@ -1,0 +1,79 @@
+:root {
+  /* ---- Color tokens (The Scholars Cafe brand palette) ---- */
+  --espresso: #2E1B12;
+  --espresso-light: #4A2F20;
+  --cream: #FBF3E4;
+  --cream-soft: #F3E7D2;
+  --marigold: #E8A93B;
+  --marigold-deep: #C7831E;
+  --chai: #D9662B;
+  --tumbler-teal: #1F6F63;
+  --tumbler-teal-dark: #154F46;
+  --ink: #23150D;
+  --success: #2E8B57;
+  --danger: #C0392B;
+
+  --shadow-soft: 0 10px 30px rgba(46, 27, 18, 0.18);
+  --shadow-pop: 0 18px 40px rgba(46, 27, 18, 0.28);
+
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --radius-sm: 8px;
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Manrope', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--marigold-deep);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--tumbler-teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
